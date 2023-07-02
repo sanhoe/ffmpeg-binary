@@ -1,0 +1,23 @@
+{
+    "name": "@ffmpeg-binary/win32-ia32",
+    "version": "6.0.0",
+    "type": "module",
+    "description": "The Windows 32-bit ffmpeg binary for ffmpeg-binary.",
+    "main": "index.js",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/sanhoe/ffmpeg-binary.git",
+        "directory": "binary/win32-ia32"
+    },
+    "keywords": [
+        "ffmpeg"
+    ],
+    "author": "sanhoe",
+    "license": "GPL-3.0-or-later",
+    "os": [
+        "win32"
+    ],
+    "cpu": [
+        "ia32"
+    ]
+}

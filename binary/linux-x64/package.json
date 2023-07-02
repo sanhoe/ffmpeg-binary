@@ -1,0 +1,23 @@
+{
+    "name": "@ffmpeg-binary/linux-x64",
+    "version": "6.0.0",
+    "type": "module",
+    "description": "The Linux 64-bit ffmpeg binary for ffmpeg-binary.",
+    "main": "index.js",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/sanhoe/ffmpeg-binary.git",
+        "directory": "binary/linux-x64"
+    },
+    "keywords": [
+        "ffmpeg"
+    ],
+    "author": "sanhoe",
+    "license": "GPL-3.0-or-later",
+    "os": [
+        "linux"
+    ],
+    "cpu": [
+        "x64"
+    ]
+}
