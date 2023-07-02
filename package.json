@@ -1,0 +1,33 @@
+{
+    "name": "@ffmpeg-binary/ffmpeg",
+    "version": "1.0.0",
+    "type": "module",
+    "description": "Node.js module providing path of ffmpeg binary for various platforms.",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "optionalDependencies": {
+        "@ffmpeg-binary/win32-x64": "^6.0.0",
+        "@ffmpeg-binary/win32-ia32": "^6.0.0",
+        "@ffmpeg-binary/linux-x64": "^6.0.0",
+        "@ffmpeg-binary/linux-ia32": "^6.0.0",
+        "@ffmpeg-binary/linux-arm64": "^6.0.0",
+        "@ffmpeg-binary/linux-arm": "^6.0.0",
+        "@ffmpeg-binary/darwin-x64": "^6.0.0",
+        "@ffmpeg-binary/darwin-arm64": "^6.0.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/sanhoe/ffmpeg-binary.git"
+    },
+    "keywords": [
+        "ffmpeg"
+    ],
+    "author": "sanhoe",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/sanhoe/ffmpeg-binary/issues"
+    },
+    "homepage": "https://github.com/sanhoe/ffmpeg-binary#readme"
+}
